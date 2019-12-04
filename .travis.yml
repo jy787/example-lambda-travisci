@@ -32,7 +32,7 @@ deploy:
   runtime:           python3.6
   skip_cleanup:      true
   edge:              true
-  role:		     ""
+  role:		     $AWS_IAM_ROLE 
   handler_name:      lambda_function.lambda_handler
   on:
     all_branches: true
