@@ -32,6 +32,8 @@ deploy:
   runtime:           python3.6
   skip_cleanup:      true
   edge:              true
+  role:		     ""
+  handler_name:      lambda_function.lambda_handler
   on:
     all_branches: true
 
